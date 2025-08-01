@@ -1,0 +1,13 @@
+.home-container {
+    background-image: url('../images/homePage_Image.jpg'); /* Correct path */
+    background-size: cover; /* Ensures it fits the screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+    width: 100vw; /* Full width */
+    height: 100vh; /* Full height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white; /* Adjust text color for visibility */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Add shadow for better readability */
+}
